@@ -1,0 +1,150 @@
+.up{
+    width: 36px;
+    height: 36px;
+    background: #a89d9c69;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: .5s;
+}
+.up::before{
+    font-family: 'icomoon';
+    position: absolute;
+}
+.up:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.morbi{
+     width: 100%;
+     padding: 20px;
+    .m-inner{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+.site-bottom{
+    width: 100%;
+    .fsb-upper{
+        width: 100%;
+        background-color: rgb(37, 37, 37);
+        font-size: 15px;
+        .upp-inner{
+            width: 100%;
+            padding: 60px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .fsb-contact{
+                width: 32%;
+                color: rgb(94, 86, 86);
+                    
+                    .social-links{
+
+                        a{
+                            position: relative;
+                            display: inline-block;
+                            width: 36px;
+                            height: 36px;
+                            padding: 10px;
+                            margin: 5px;
+                            background-color: #fff;
+                            color: #000;
+                            transition: background-color .7s;
+                            transition: color 1.2s;
+                        }
+                        a::before{                            
+                            position: absolute;
+                            font-family: 'icomoon';
+                            text-align: center;
+                            top: 6px;
+                            right: 10px;
+                            font-size: 22px;
+                        }
+                        a:hover{
+                            color: #fff;                          
+                        }
+                        a.fb:hover{
+                            background-color: #0000ff9a;
+                        }
+                        a.back:hover{
+                            background-color: #1683add7;
+                        }
+                        a.arrows-fullscren:hover{
+                            background-color: #ff0077;
+                        }
+                        a.heading:hover{
+                            background-color: #0abeebb2;
+                        }
+                        a.toggle:hover{
+                            background-color: #ff1e00b6;
+                        }
+                        a.check:hover{
+                            background-color: #0051ff81;
+                        }
+                    }
+    }
+            .fsb-about{               
+                    width: 32%;
+                    color: #fff;
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        list-style-type: none;                         
+
+                        li{
+                            padding: 10px;
+                        }
+                    }                   
+               
+            }
+            .fsb-subscribe{
+                width: 32%;
+                color: #fff;
+                p{
+                    margin-bottom: 10px;
+                    padding: 20px 0;
+                }
+                form{
+                    padding: 10px 0;
+                    input{
+                        display: block;
+                        margin: 10px 0;
+                        padding: 5px 15px;
+                        outline: none;
+                    }
+                    input.inp-name{
+                        width: 100%;
+                    }
+                    input.inp-email{
+                        width: 100%;
+                    }
+                    input.inp-submit{
+                        background-color:rgb(128, 8, 48);
+                        color: #fff;
+                        border: none;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        padding: 8px 18px 10px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 700;
+                    }
+                    input::placeholder{
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+} 
